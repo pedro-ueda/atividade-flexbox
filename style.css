@@ -1,0 +1,72 @@
+.alinhados{
+    border: 3px solid black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.alinhadosFinal{
+    display: flex;
+    border: 3px solid grey;
+    justify-content: flex-end;
+}
+
+.centro{
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+}
+
+.distribuido{
+    display: flex;
+    border: 3px solid grey;
+    justify-content: space-between;
+}
+
+.espacado{
+    display: flex;
+    border: 3px solid black;
+    justify-content: space-around;
+}
+
+.espacadoIguais{
+    display: flex;
+    border: 3px solid grey;
+    justify-content: space-evenly;
+}
+
+.container-exercicioB{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-desafio{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.tam{
+    width: 100%;
+    height: 65px;
+}
+
+.ciano{
+    background-color: aqua;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.tamQuadrado{
+    width: 65px;
+    height: 65px;
+}
